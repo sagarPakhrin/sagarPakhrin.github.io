@@ -1,0 +1,48 @@
+.about-section {
+    padding:50px 0;
+    background: #25262a;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+
+    .about-container {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap-reverse;
+    }
+    .section {
+        width: 40%;
+    }
+
+    .about {
+        padding:50px 0;
+
+        h4,
+        p {
+            color: #b1b1b1;
+        }
+        h1 {
+            font-weight: bold;
+        }
+        p{
+            line-height:30px;
+        }
+
+        .lets_chat{
+            margin:20px 0;
+        }
+    }
+    @media screen and(max-width:1200px) {
+        .section {
+            width: 40%;
+        }
+    }
+    @media screen and(max-width:768px) {
+        .section {
+            width: 90%;
+        }
+    }
+}

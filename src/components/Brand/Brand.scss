@@ -1,0 +1,12 @@
+.brand {
+
+    .last_name {
+        color: #b1b1b1;
+    }
+
+    @media screen and(max-width:768px){
+        margin:0 auto;
+        width:90%;
+        text-align:center;
+    }
+}

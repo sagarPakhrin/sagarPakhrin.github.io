@@ -1,0 +1,26 @@
+.banner-section {
+    flex: 1;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+
+    .banner {
+        margin: auto 0;
+
+        h1 {
+            font-size: 3rem;
+            font-family: "Roboto Condensed", sans-serif;
+            margin-bottom: 10px;
+        }
+
+        .explore {
+            text-transform: capitalize;
+            font-size: 1.5em;
+            cursor: pointer;
+            display: inline-block;
+
+            &:hover {
+            }
+        }
+    }
+}

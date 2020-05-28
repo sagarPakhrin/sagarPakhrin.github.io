@@ -1,0 +1,27 @@
+.nav {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+
+    @media screen and(max-width:1200px) {
+        justify-content: center;
+    }
+
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: flex-start;
+        margin: 0;
+
+        li {
+            padding: 30px 10px;
+            transition: all 0.15s ease-in;
+            cursor: pointer;
+
+            &:hover {
+                background: red;
+            }
+        }
+    }
+}
