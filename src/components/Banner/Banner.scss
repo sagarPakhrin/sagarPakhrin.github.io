@@ -13,13 +13,18 @@
             margin-bottom: 10px;
         }
 
-        .explore {
-            text-transform: capitalize;
-            font-size: 1.5em;
-            cursor: pointer;
-            display: inline-block;
+        .download {
+            border: none;
+            background:#a7a935;
+            outline: none;
+            padding: 10px;
+            border-radius: 2px;
+            cursor:pointer;
 
-            &:hover {
+            .downloadIcon{
+                height:15px;
+                width:15px;
+                margin-right:10px;
             }
         }
     }

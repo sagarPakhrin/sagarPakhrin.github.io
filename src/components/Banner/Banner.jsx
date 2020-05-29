@@ -1,4 +1,5 @@
 import React from "react";
+import { ReactComponent as Download } from "../../assets/downloadInverse.svg";
 import "./Banner.scss";
 
 const Banner = () => (
@@ -12,7 +13,9 @@ const Banner = () => (
                 Currently looking for a position of position of software
                 engineer
             </p>
-            <span className="explore">Explore</span>
+            <button className="download">
+                <Download className="downloadIcon"/> Resume
+            </button>
         </div>
     </div>
 );
