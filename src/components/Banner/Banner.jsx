@@ -13,9 +13,9 @@ const Banner = () => (
                 Currently looking for a position of position of software
                 engineer
             </p>
-            <button className="download">
+            <a href="https://drive.google.com/file/d/1Ag82INlmS5yg6tvm7qt8lX0Z7XjJkQ4x/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="download">
                 <Download className="downloadIcon"/> Resume
-            </button>
+            </a>
         </div>
     </div>
 );

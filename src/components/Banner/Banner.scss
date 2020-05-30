@@ -15,12 +15,16 @@
 
         .download {
             border: none;
-            background:#a7a935;
+            background:#a7a935b5;
             outline: none;
             padding: 10px;
             color:#fff;
             border-radius: 2px;
-            cursor:pointer;
+            text-decoration:none;
+            transition:all 0.2s ease-in;
+            &:hover{
+                background:#a7a935;
+            }
 
             .downloadIcon{
                 height:15px;

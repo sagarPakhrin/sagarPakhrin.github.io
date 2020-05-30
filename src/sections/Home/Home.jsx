@@ -5,7 +5,7 @@ import Banner from "../../components/Banner/Banner.jsx";
 import "./Home.scss";
 const Home = () => {
     return (
-        <div className="home">
+        <div className="home" id="home">
             <Header />
             <Banner />
         </div>

@@ -3,7 +3,7 @@ import Card from "../../components/Card/Card.jsx";
 
 import "./About.scss";
 const About = () => (
-    <div className="about-section">
+    <div className="about-section" id="about">
         <div className="about-container">
             <div className="section services">
                 <Card>

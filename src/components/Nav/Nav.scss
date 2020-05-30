@@ -15,12 +15,17 @@
         margin: 0;
 
         li {
-            padding: 30px 10px;
             transition: all 0.15s ease-in;
-            cursor: pointer;
 
-            &:hover {
-                background: red;
+            a {
+                padding: 30px 10px;
+                display:block;
+                color:#fff;
+                text-decoration:none;
+
+                &:hover {
+                    background: red;
+                }
             }
         }
     }
