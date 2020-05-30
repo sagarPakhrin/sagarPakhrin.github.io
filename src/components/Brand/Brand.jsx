@@ -1,14 +1,17 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
-import "./Brand.scss"
+import "./Brand.scss";
 
 const Brand = () => (
-        <div className="brand">
+    <div className="brand">
+        <Link to="/">
             <h2>
                 <span className="first_name">Sagar </span>
                 <span className="last_name">Lama</span>
             </h2>
-        </div>
-)
+        </Link>
+    </div>
+);
 
-export default Brand
+export default Brand;
